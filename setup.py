@@ -9,7 +9,7 @@
 import os
 from distutils.util import convert_path
 try:
-    from setuptools import setup, find_packages
+    from setuptools import setup, find_packages # type: ignore
 except ImportError:
     from distutils.core import setup
 
